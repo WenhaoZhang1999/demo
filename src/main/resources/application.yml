@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://120.24.204.163:54321/test?useUnicode=true
+    username: system
+    password: zwh990216
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
