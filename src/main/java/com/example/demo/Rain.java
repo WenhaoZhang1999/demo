@@ -17,6 +17,7 @@ public class Rain {
     private Person person;
 
     public Person getPerson() {
+        System.out.println("CCCCC");
         return person;
     }
 
